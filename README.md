@@ -11,7 +11,7 @@ A Python script/notebook for importing, cleaning, analyzing, and visualizing glo
 
 ---
 
-## 💾 Data Source (Auto-load with Fallback)
+##  Data Source (Auto-load with Fallback)
 
 * **Primary**: Our World in Data CSV (auto-downloaded):
 
@@ -19,7 +19,7 @@ A Python script/notebook for importing, cleaning, analyzing, and visualizing glo
 
 * **Fallback**: Local file `owid-covid-data.csv` in working directory
 
-## 🔧 Setup & Environment
+## Setup & Environment
 
 1. **Create & activate a virtual environment**
 
@@ -42,7 +42,7 @@ A Python script/notebook for importing, cleaning, analyzing, and visualizing glo
    jupyter lab
    ```
 
-## 🚀 How to Run
+##  How to Run
 
 * **As Python script**
 
@@ -62,7 +62,7 @@ A Python script/notebook for importing, cleaning, analyzing, and visualizing glo
   1. Rename or open this file as `covid_tracker.ipynb`
   2. Copy code cells and run sequentially to view inline visualizations
 
-## 🔍 Navigation
+##  Navigation
 
 * Sections are delineated by comments, e.g.:
 
@@ -71,11 +71,11 @@ A Python script/notebook for importing, cleaning, analyzing, and visualizing glo
   ```
 * Jump to any numbered section to focus on that step.
 
-## 🔑 ISO Codes
+##  ISO Codes
 
 * Uses 3-letter ISO codes (`iso_code`) to merge with GeoPandas world geometries.
 
-## ✅ Features & Objectives
+##  Features & Objectives
 
 * **Import & clean** real-world COVID-19 data
 * **Analyze time trends**: total & new cases, deaths, vaccinations
@@ -86,7 +86,7 @@ A Python script/notebook for importing, cleaning, analyzing, and visualizing glo
 
 ---
 
-## 📖 Further Customization
+##  Further Customization
 
 * Change the `countries` list to any set of countries
 * Adjust `start_date` or date filters to focus on different periods
